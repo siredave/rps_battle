@@ -1,0 +1,27 @@
+{
+  "name": "rps-battle-server",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors Battle - Multiplayer Betting Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["game", "rock-paper-scissors", "multiplayer", "betting"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "mongoose": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express-validator": "^7.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
